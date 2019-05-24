@@ -1,0 +1,67 @@
+*:not(body){
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+title{
+    text-shadow: 6px 6px 10px #000000;
+}
+body{
+
+    width: 800px;
+    height: 600px;
+    background: url('../img/space.jpg');
+    color:#4ce011;
+    text-align: center;
+    padding: 0px;
+    margin-left: auto;;
+    margin-right: auto;
+}
+h2{
+    color: #b002f5;
+    font-size: 55px;
+    text-shadow: 6px 6px 10px #000000;
+}
+.word{
+    background: #0000007e;
+    border: 3px solid #57cc09ad;
+    border-radius: 10px;
+    display: block;
+    font-size: 70px;
+    color: #4ce011;
+    box-shadow: 5px 5px 10px #000000;
+}
+.intentos{
+    background: #0000007e;
+    border: 3px solid #57cc09ad;
+    border-radius: 10px;
+    font-size: 40px;
+    box-shadow: 5px 5px 10px #000000;
+    display: block;
+}
+.playAgain{
+    background: #0000007e;
+    border: 3px solid #57cc09ad;
+    border-radius: 10px;
+    display: block;
+    font-size: 30px;
+    color: #4ce011;
+    box-shadow: 5px 5px 10px #000000;
+    text-decoration: none;
+}
+.playAgain:hover{
+    background: #63e70a;
+    color: #000000;
+}
+.footer{
+    background: #0000007e;
+    border: 3px solid #57cc09ad;
+    border-radius: 10px;
+    display: block;
+    font-size: 30px;
+    color: #4ce011;
+    box-shadow: 5px 5px 10px #000000;
+    position: relative;
+    top: 50px;
+}
