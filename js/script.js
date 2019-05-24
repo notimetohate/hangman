@@ -2,7 +2,7 @@
 window.onload = jugar();
 function jugar(event){
 	// Palabras
-	document.getElementById('body').click();
+	document.getElementById('word').click();
 	var words = ['abacanado', 'abrochadora', 'abrojo', 'aguinaldo', 'alambre',
 		'bicisenda', 'bordeadora', 'botin', 'bruja', 'bulto', 
 		'canalla', 'caripela', 'cascarudo', 'chatarra', 'comedor', 
