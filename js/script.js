@@ -2,7 +2,6 @@
 window.onload = jugar();
 function jugar(event){
 	// Palabras
-	document.getElementById('word').click();
 	var words = ['abacanado', 'abrochadora', 'abrojo', 'aguinaldo', 'alambre',
 		'bicisenda', 'bordeadora', 'botin', 'bruja', 'bulto', 
 		'canalla', 'caripela', 'cascarudo', 'chatarra', 'comedor', 
@@ -21,6 +20,8 @@ function jugar(event){
 	// Se obtiene una palabra de 'words' al azar
 	var word = words[Math.floor(Math.random()*words.length)];
 	var wordDiv = document.getElementById('word');
+	wordDiv.focus();
+	wordDiv.click();
 	var intentosDiv = document.getElementById('intentos');
 	var gameStatus = document.getElementById('status');
 		gameStatus.innerHTML = 'Adivina la palabra!';
