@@ -1,5 +1,9 @@
 
 window.onload = jugar();
+function tap(event){
+	document.getElementById('word').focus();
+	document.getElementById('word').click();
+}
 function jugar(event){
 	// Palabras
 	var words = ['abacanado', 'abrochadora', 'abrojo', 'aguinaldo', 'alambre',
@@ -20,8 +24,6 @@ function jugar(event){
 	// Se obtiene una palabra de 'words' al azar
 	var word = words[Math.floor(Math.random()*words.length)];
 	var wordDiv = document.getElementById('word');
-	wordDiv.focus();
-	wordDiv.click();
 	var intentosDiv = document.getElementById('intentos');
 	var gameStatus = document.getElementById('status');
 		gameStatus.innerHTML = 'Adivina la palabra!';
