@@ -1,1 +1,3 @@
 # hangman
+
+Hangman game proyect.
