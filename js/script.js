@@ -1,9 +1,5 @@
 
 window.onload = jugar();
-function tap(event){
-	document.getElementById('word').focus();
-	document.getElementById('word').click();
-}
 function jugar(event){
 	// Palabras
 	var words = ['abacanado', 'abrochadora', 'abrojo', 'aguinaldo', 'alambre',
